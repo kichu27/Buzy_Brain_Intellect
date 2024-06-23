@@ -18,6 +18,7 @@
   align-items: center;
   display: flex;
   flex-wrap: wrap;
+  z-index: +1;
 }
 
 .subdiv2 {
@@ -156,6 +157,7 @@
   .workbox {
     position: static;
     width: 100%;
+
   }
 
   .servicebox p,

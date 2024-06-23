@@ -32,6 +32,7 @@ export default function Sub1() {
           src="src\components\t1.png"
           className="trophy"
           alt="info"
+         
           variants={itemVariants}
         />
 
@@ -117,18 +118,33 @@ export default function Sub1() {
         <motion.h1 variants={itemVariants}> Our Team </motion.h1>
 <img src="src\components\images\team.png" height={400} width={400} />
         <motion.div className="allpi" variants={itemVariants}>
+
           <motion.div className="pi" variants={itemVariants}>
+
             <motion.img
-              src="src\components\Vinod-Gadkar.jpg"
+              src="src\components\images\passport.jpeg"
               className="person"
               alt="Vinod Gadkar"
+              height={380}
+              width={300}
             />
 
-            <div className="ids">
-              <p> Vinod Gadkar </p>
-              <p> DIRECTOR </p>
-            </div>
+<div class="ids">
+  <p className="pititle"> VINOD GADKAR </p>
+  <h5 className="pipost"> DIRECTOR </h5>
+  <h6>DEGREE</h6>
+  <p> M.S. in Computer Science </p>
+  <h6>WORK</h6>
+  <p> Software Development </p>
+  <h6>EMAIL</h6>
+  <p> vinod.gadkar@example.com </p>
+</div>
+
+
+
+
           </motion.div>
+
         </motion.div>
       </div>
     </motion.div>

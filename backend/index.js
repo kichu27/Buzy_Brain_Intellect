@@ -12,14 +12,14 @@
   app.use(cors())
 
 
-  app.use(express.static(path.resolve(__dirname, '../src/components')));
+  app.use(express.static(path.resolve(__dirname, '../src')));
 
 
   app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, '../index.html', 'index.html'));
+    res.sendFile(path.resolve(__dirname, '../', 'index.html'));
   });
 
- 
+  
 
   app.listen(PORT, () => {
     console.log(`Server listening on ${PORT}`);

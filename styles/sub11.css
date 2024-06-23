@@ -46,9 +46,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   margin: 20px;
-  border: 3px solid black;
+  width: 1200px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .person {
@@ -60,10 +61,20 @@
 .ot p {
   font-size: 20px;
 }
+h6{
+
+background-color: rgb(255, 255, 255);
+padding: 5px;
+border-radius: 10px;
+width: max-content;
+
+}
 
 .ids {
-  text-align: center;
+  text-align: left;
   font-weight: bold;
+
+  padding: 20px;
 }
 
 .allpi {
@@ -72,6 +83,7 @@
   align-items: center;
   flex-direction: row;
 }
+
 
 @media only screen and (max-width: 1200px) {
   .om p {
