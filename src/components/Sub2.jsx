@@ -15,7 +15,7 @@ export default function Sub2() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
-    }, 2000); // Change slide every 3 seconds
+    }, 2000); 
     return () => clearInterval(interval);
   }, [slides.length]);
 
@@ -31,14 +31,14 @@ export default function Sub2() {
             transition={{ duration: 1 }}
             style={{ backgroundImage: `url(${slide.image})` }}
           >
-            <motion.div
+            {/* <motion.div
               className="slide-text"
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.8 }}
             >
               {slide.text}
-            </motion.div>
+            </motion.div> */}
           </motion.div>
         ))}
       </div>

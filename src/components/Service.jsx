@@ -46,9 +46,9 @@ export default function Service(props) {
           {props.content2 && (
             <div className="ms1">
               <div className="ms10">
-                <motion.h4 variants={itemTransition}>
+                <motion.h6 variants={itemTransition}>
                   {props.content2}
-                </motion.h4>
+                </motion.h6>
               </div>
             </div>
           )}
