@@ -1,0 +1,27 @@
+{
+  "name": "buzybrainintellec_backend",
+  "version": "1.0.0",
+  "description": "this is backend server for buzybrainintellect in nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js" , 
+    "build": "npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kichu27/Buzy-Brain-Intellect.git"
+  },
+  "author": "kartik patekar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kichu27/Buzy-Brain-Intellect/issues"
+  },
+  "homepage": "https://github.com/kichu27/Buzy-Brain-Intellect#readme",
+  "type": "module",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  } ,
+  "engines": {"node": "20.9.0"}
+}

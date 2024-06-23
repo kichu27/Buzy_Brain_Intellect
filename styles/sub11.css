@@ -1,0 +1,153 @@
+.kp {
+  background-color: hwb(0 100% 0%);
+  width: 100%;
+  border-top-left-radius: 360px;
+  border-top-right-radius: 360px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  height: max-content;
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
+
+.om {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.trophy {
+  margin-top: 50px;
+  height: 400px;
+  width: 400px;
+  background-color: inherit;
+}
+
+.om p {
+  background-color: aliceblue;
+  padding: 40px;
+  text-align: justify;
+  border-radius: 40px;
+  width: 900px;
+  font-size: larger;
+  border: 3px solid black;
+}
+
+.ot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pi {
+  background-color: whitesmoke;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  border: 3px solid black;
+}
+
+.person {
+  border-radius: 0px;
+  padding: 70px;
+  padding-bottom: 30px;
+}
+
+.ot p {
+  font-size: 20px;
+}
+
+.ids {
+  text-align: center;
+  font-weight: bold;
+}
+
+.allpi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 1200px) {
+  .om p {
+    width: 80%;
+    padding: 30px;
+  }
+
+  .trophy {
+    height: 300px;
+    width: 300px;
+  }
+
+  .pi {
+    margin: 15px;
+    padding: 20px;
+  }
+
+  .person {
+    padding: 50px;
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .om p {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .trophy {
+    height: 200px;
+    width: 200px;
+  }
+
+  .pi {
+    margin: 10px;
+    padding: 15px;
+  }
+
+  .person {
+    padding: 30px;
+    padding-bottom: 15px;
+  }
+
+  .allpi {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .om p {
+    width: 95%;
+    padding: 10px;
+    font-size: medium;
+  }
+
+  .trophy {
+    height: 150px;
+    width: 150px;
+  }
+
+  .pi {
+    margin: 5px;
+    padding: 10px;
+  }
+
+  .person {
+    padding: 20px;
+    padding-bottom: 10px;
+  }
+
+  .ot p {
+    font-size: 18px;
+  }
+
+  .allpi {
+    flex-direction: column;
+  }
+}

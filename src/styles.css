@@ -1,0 +1,6 @@
+.maindiv {
+  height: max-content;
+  width: 100%;
+  margin: 0px;
+  background-color: hwb(240 72% 12%);
+}

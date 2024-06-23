@@ -1,0 +1,125 @@
+.contact-container {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #d7ff23;
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact-container h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #2980b9;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.contact-info strong {
+  font-weight: bold;
+  color: #2980b9;
+}
+
+.contact-info a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.socialmediacont {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  border: solid 3px white;
+  width: max-content;
+  margin: 40px;
+}
+
+.socialbox {
+  padding: 20px;
+  margin: 10px;
+}
+
+iframe {
+  width: 100%;
+  height: 450px;
+  border: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  .contact-container {
+    margin-top: 30px;
+  }
+
+  .contact-container h2 {
+    font-size: 24px;
+  }
+
+  .contact-info p {
+    font-size: 14px;
+  }
+
+  .socialmediacont {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-container {
+    padding: 15px;
+    margin-top: 20px;
+  }
+
+  .contact-container h2 {
+    font-size: 22px;
+  }
+
+  .contact-info p {
+    font-size: 12px;
+  }
+
+  .socialbox img {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .contact-container {
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .contact-container h2 {
+    font-size: 20px;
+  }
+
+  .contact-info p {
+    font-size: 11px;
+  }
+
+  .socialbox {
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .socialbox img {
+    height: 30px;
+    width: 30px;
+  }
+}

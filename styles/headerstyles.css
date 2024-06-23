@@ -1,0 +1,171 @@
+.line {
+  background-color: inherit;
+  height: 4px;
+  transition: all 1s ease-in-out;
+  width: 0px;
+}
+
+.maindiv {
+  width: 100%;
+  height: max-content;
+  background-color: white;
+  opacity: 0.5;
+  margin-top: 0px;
+  color: hsl(0, 0%, 0%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.subdiv2 {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.modulediv {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 5px;
+  background-color: whitesmoke;
+  padding: 3px;
+  height: max-content;
+  transition: all 0.5s ease-in-out;
+  width: 100px;
+  font-size: 1rem;
+}
+
+.modulediv a {
+  text-decoration: none;
+  color: black;
+}
+
+.modulediv:hover {
+  transition: all 0.5s ease-in-out;
+}
+
+.modulediv:hover .line {
+  width: 100px;
+  background-color: blue;
+  transition: all 1s ease-in-out;
+}
+
+.logo {
+  height: 90px;
+  width: 90px;
+  margin-bottom: 30px;
+}
+
+.servicebox {
+  position: absolute;
+  top: 100px;
+  right: 540px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 1.5s ease-in-out;
+  cursor: pointer;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 5px;
+  width: 250px;
+}
+
+.servicebox p {
+  background-color: white;
+  width: 200px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.coursebox {
+  position: absolute;
+  top: 100px;
+  right: 470px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 1.5s ease-in-out;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 5px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.coursebox p {
+  background-color: white;
+  width: 100px;
+  cursor: pointer;
+}
+
+.workbox {
+  position: absolute;
+  top: 100px;
+  right: 315px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 1.5s ease-in-out;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 5px;
+  width: 230px;
+  cursor: pointer;
+}
+
+.workbox p {
+  background-color: white;
+  width: 200px;
+  cursor: pointer;
+}
+
+.maindiv2 {
+  display: flex;
+  align-items: center;
+  background: #abcc16;
+  flex-direction: column;
+  width: 100%;
+  height: max-content;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .maindiv {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .subdiv2 {
+    flex-direction: column;
+  }
+
+  .servicebox,
+  .coursebox,
+  .workbox {
+    position: static;
+    width: 100%;
+  }
+
+  .servicebox p,
+  .coursebox p,
+  .workbox p {
+    width: 100%;
+  }
+}
+
+.body {
+  margin: 0px;
+  padding: 0px;
+}
