@@ -1,5 +1,5 @@
 import React from "react";
-import "/styles/f.css";
+import "./styles/f.css";
 import Header from "./Header";
 import Footer from "./Footer";
 import Info30 from "./Info30";
@@ -13,10 +13,6 @@ const BuzyBrainFranchise = () => {
 
 <div className="subf"><Info30 /> <Info31 /></div>
       
-
-
-
-
 
       <Footer />
     </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import "/styles/wh.css";
+import "./styles/wh.css";
 import Header from "./Header";
 import Footer from "./Footer";
 

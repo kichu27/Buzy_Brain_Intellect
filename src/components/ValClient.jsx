@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import "/styles/valclient.css";
+import "./styles/valclient.css";
 
 export default function ValClient() {
   const { ref, inView } = useInView({

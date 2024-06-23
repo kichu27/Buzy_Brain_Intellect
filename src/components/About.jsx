@@ -5,7 +5,7 @@ import Sub1 from "./Sub1";
 
 import Footer from "./Footer";
 
-import "/styles/infostyles.css";
+import "./styles/infostyles.css";
 
 export default function About() {
   return (

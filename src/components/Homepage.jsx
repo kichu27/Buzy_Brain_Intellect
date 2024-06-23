@@ -8,8 +8,8 @@ import ValClient from "./ValClient";
 import Testomonials from "./Testomonials";
 import Sub2 from "./Sub2";
 
-import "/styles/headerstyles.css";
-import "/styles/infostyles.css";
+import "./styles/headerstyles.css";
+import "./styles/infostyles.css";
 
 
 export default function Homepage() {

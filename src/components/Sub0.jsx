@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import "/styles/sub00.css";
+import "./styles/sub00.css";
 
 export default function About() {
   const containerVariants = {

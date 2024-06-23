@@ -1,0 +1,104 @@
+.subf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .ulf {
+    font-size: larger;
+    line-height: 40px;
+  }
+  
+  .box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .box4 {
+    margin-left: 20px;
+    width: 100%;
+    max-width: 1000px;
+  }
+  
+  .tit {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+  }
+  
+  .i {
+    border-radius: 40px;
+  }
+  
+  #outh {
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    margin: 100px auto;
+    padding: 100px;
+    border-radius: 50px;
+    letter-spacing: 2px;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 1200px) {
+    .box4 {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .ulf {
+      font-size: medium;
+      line-height: 35px;
+    }
+    
+    #outh {
+      width: 80%;
+      margin: 80px auto;
+      padding: 80px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .ulf {
+      font-size: medium;
+      line-height: 30px;
+    }
+  
+    .box1 {
+      flex-direction: column;
+      margin-top: 20px;
+    }
+    
+    .box4 {
+      margin-left: 0;
+      width: 100%;
+    }
+  
+    #outh {
+      width: 90%;
+      margin: 60px auto;
+      padding: 60px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .ulf {
+      font-size: small;
+      line-height: 25px;
+    }
+  
+    #outh {
+      font-size: medium;
+      padding: 40px;
+      border-radius: 20px;
+    }
+  }
+  

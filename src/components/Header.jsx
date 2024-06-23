@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import "/styles/headerstyles.css";
+import "./styles/headerstyles.css";
 
 export default function Header() {
   const [hoverState, setHoverState] = useState({

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import "/styles/sub22.css";
+import "./styles/sub22.css";
 
 export default function Sub2() {
   const [currentSlide, setCurrentSlide] = useState(0);

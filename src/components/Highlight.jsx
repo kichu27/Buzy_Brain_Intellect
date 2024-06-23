@@ -1,5 +1,5 @@
 import React from 'react'
-import "/styles/f.css";
+import './styles/f.css';
 
 function Highlight(props) {
   return (

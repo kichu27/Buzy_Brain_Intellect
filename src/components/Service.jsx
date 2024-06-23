@@ -3,8 +3,8 @@ import Header from "./Header";
 import Footer from "./Footer";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import "/styles/wh.css";
-import "/styles/s.css";
+import "./styles/wh.css";
+import "./styles/s.css";
 
 export default function Service(props) {
   const { ref, inView } = useInView({

@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import "/styles/courses.css";
+import "./styles/courses.css";
 import Header from "./Header";
 import Footer from "./Footer";
 
